@@ -1,6 +1,6 @@
 #Heron's formula
 
-#import square root function freom math library
+#import square root function from math library
 from math import sqrt
 
 #the users enter the sides of the triangle
