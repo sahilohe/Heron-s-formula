@@ -8,7 +8,7 @@ public class Heron_Formula {
         //Creating a instance of Scanner
         Scanner input = new Scanner(System.in);
 
-        //Asking the use for three sides
+        //Asking the user for three sides
         System.out.println("Enter the sides:");
         double firstSide = input.nextDouble();
         double secondSide = input.nextDouble();
@@ -17,7 +17,8 @@ public class Heron_Formula {
         //finding the semi-perimeter and area
         double semiPerimeter = (firstSide + secondSide + thirdSide) / 2;
         double answer = Math.sqrt(semiPerimeter * (semiPerimeter - firstSide) * (semiPerimeter - secondSide) * (semiPerimeter - thirdSide));
-
+        
+        //printing out the answer
         System.out.println("The answer is " + answer);
 
     }
